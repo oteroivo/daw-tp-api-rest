@@ -139,15 +139,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     })
 
-    statusSelect.addEventListener('change', () => {
+    statusSelect.addEventListener('click', () => {
         fetchCharacters(currentPage);
     })
 
-    speciesSelect.addEventListener('change', () => {
+    speciesSelect.addEventListener('click', () => {
         fetchCharacters(currentPage);
     })
 
-    genderSelect.addEventListener('change', () => {
+    genderSelect.addEventListener('click', () => {
         fetchCharacters(currentPage);
     })
 
