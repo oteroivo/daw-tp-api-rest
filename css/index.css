@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(ellipse at center, 
+                #f8f6f6 0%, 
+                #eaeaf4 100%);
+                background-attachment: fixed;     
+  }
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.logo {
+    width: 150px;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.button {
+    background-color: #ffffff;
+    border: 1px solid #d0d0d0;
+    color: #000000;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.characters-container {
+    margin: 50px 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.character-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.character {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid #d0d0d0 ;
+    padding: 35px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.label {
+    font-size: 20px;
+    text-align: center;
+}
+
+.no-characters-container {
+    padding: 50px;
+    border-radius: 20px;
+    border: 1px solid #d0d0d0;
+    font-size: 30px;
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+.not-found-img {
+    width: 40px;
+    height: 50px;
+}
+
+input, select {
+    font-size: 16px;
+    padding: 12px 15px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+.page-number {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.loading-card {
+    width: 200px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #333;
+    position: relative;
+    overflow: hidden;
+    display: none;
+}
